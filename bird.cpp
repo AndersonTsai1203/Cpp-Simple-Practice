@@ -12,7 +12,7 @@ int main()
     {
         cout << word << "\n";
     }
-    cout << endl;
+    cout << endl; // printing a new line
 
     return 0;
 }
