@@ -20,7 +20,19 @@ int main()
     for (int j = 0; j < length; j++)
     {
         cin >> permutation[j];
+        if (permutation[j] >= length)
+        {
+            cout << "Invalid permutation" << endl;
+            return 0;
+        }
     }
+
+    for (int k = 0; k < length; k++)
+    {
+        cout << vector[permutation[k]] << " ";
+    }
+
+    cout << endl;
 
     return 0;
 }
